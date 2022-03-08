@@ -21,11 +21,47 @@
 
 // const ent = "1 2 3 4 5";
 
-// const arrEnt = ent.split(" ").reverse();
-// let reverseVal = "";
+// const arrEnt = ent.split(" ").reverse().join(" ");
 
-// for (let i = 0; i < arrEnt.length; i++) {
-//   reverseVal = reverseVal + arrEnt[i] + " ";
+// console.log(arrEnt);
+
+// Num 34
+
+// const ent = "155 156 165 166 169 176";
+// let arr = ent.split(" ");
+// let sortArr = arr.sort((a, b) => {
+//   return a - b;
+// });
+
+// let strArr = sortArr.join(" ");
+
+// if (ent === strArr) {
+//   console.log("Yes");
+// } else {
+//   console.log("No");
 // }
 
-// console.log(reverseVal);
+// Num 35
+
+// function one(n) {
+//   function two(x) {
+//     return Math.pow(x, n);
+//   }
+//   return two;
+// }
+
+// const a = one(2);
+
+// console.log(a(10));
+
+// Num 36
+
+// const ent = 2;
+
+// let output = "";
+
+// for (let i = 1; i < 10; i++) {
+//   output = output + ent * i + " ";
+// }
+
+// console.log(output);
