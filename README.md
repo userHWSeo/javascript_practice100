@@ -86,9 +86,11 @@ factory 함수인데 함수안에 또 다른 함수를 넣어 사용하였다.
 <br>
 어려운 부분은 console.log의 a(10)에 10이 어째서 two(x)로 들어가는지인데
 <br>
+console.log(a)를 찍어보게 되면 function two의 함수가 나오게 된다.
+<br>
 이는 function one에서 return two를 하였기 때문에 변수 a는 two 함수로 된다.
 <br>
-이는 a(10)은 two(10)과 같아지게 되며
+a(10)은 two(10)과 같아지게 되며
 <br>
 Math.pow 함수로 제곱을 만들어 준다.
 
