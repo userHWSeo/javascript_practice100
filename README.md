@@ -90,7 +90,7 @@ console.log(a)를 찍어보게 되면 function two의 함수가 나오게 된다
 <br>
 이는 function one에서 return two를 하였기 때문에 변수 a는 two 함수로 된다.
 <br>
-a(10)은 two(10)과 같아지게 되며
+a(10)에 10이라는 입력값은 고스란히 two함수의 (x) 즉 매개변수로 들어가게 된다.
 <br>
 Math.pow 함수로 제곱을 만들어 준다.
 
