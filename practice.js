@@ -65,3 +65,44 @@
 // }
 
 // console.log(output);
+
+// Num 37
+
+// const ent = ["원범", "원범", "혜원", "혜원", "혜원", "유진", "유진"];
+// let result = {};
+// let winner = "";
+
+// for (let index in ent) {
+//   let val = ent[index];
+//   result[val] = result[val] === undefined ? 1 : (result[val] = result[val] + 1);
+// }
+
+// winner = Object.keys(result).reduce((a, b) => {
+//   return result[a] > result[b] ? a : b;
+// });
+
+// console.log(result);
+// console.log(winner);
+// console.log(result[winner]);
+// console.log(`${winner}(이)가 총 ${result[winner]}표로 반장이 되었습니다.`);
+
+// Num 38
+
+// const ent = [97, 86, 75, 66, 55, 97, 85, 97, 97, 95];
+
+// ent.sort((a, b) => {
+//   return a - b;
+// });
+
+// let top3 = [];
+// let count = 0;
+
+// while (top3.length < 4) {
+//   let value = ent.pop();
+//   if (!top3.includes(value)) {
+//     top3.push(value);
+//   }
+//   count++;
+// }
+
+// console.log(count - 1);
