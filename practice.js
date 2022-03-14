@@ -106,3 +106,30 @@
 // }
 
 // console.log(count - 1);
+
+// Num 39
+
+// const ent = "hqllo my namq is hyqwon";
+
+// const output = ent.replaceAll("q", "e");
+
+// console.log(output);
+
+// Num 40
+
+// const weight = "50";
+// const people = "5";
+
+// const peopleWeight = "20 40 20 20 20";
+// const p_WeightArr = peopleWeight.split(" ");
+// let riseWeight = 0;
+// let count = 0;
+
+// for (let i = 0; i < people; i++) {
+//   riseWeight = riseWeight + parseInt(p_WeightArr[i]);
+//   if (riseWeight <= weight) {
+//     count++;
+//   }
+// }
+
+// console.log(count);
