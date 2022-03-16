@@ -133,3 +133,36 @@
 // }
 
 // console.log(count);
+
+// Num 41
+
+// const a = 2;
+
+// function yesOrNo() {
+//   for (let i = 2; i < a; i++) {
+//     const output = a % i;
+//     if (output === 0) {
+//       return console.log("No");
+//     }
+//   }
+//   if (a === 1) {
+//     console.log("No");
+//   } else {
+//     console.log("Yes");
+//   }
+// }
+
+// yesOrNo();
+
+// Num 42
+
+// const day = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+// const a = 5;
+// const b = 24;
+
+// function solution() {
+//   const theDay = new Date(`2020-${a}-${b}`);
+//   console.log(day[theDay.getDay()]);
+// }
+
+// solution();
