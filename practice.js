@@ -136,16 +136,16 @@
 
 // Num 41
 
-// const a = 2;
+// const ent = 2;
 
 // function yesOrNo() {
-//   for (let i = 2; i < a; i++) {
-//     const output = a % i;
+//   for (let i = 2; i < ent; i++) {
+//     const output = ent % i;
 //     if (output === 0) {
 //       return console.log("No");
 //     }
 //   }
-//   if (a === 1) {
+//   if (ent === 1) {
 //     console.log("No");
 //   } else {
 //     console.log("Yes");
@@ -166,3 +166,34 @@
 // }
 
 // solution();
+
+// Num 43 - 1
+
+// let ent = "32";
+// let arrBinary = [];
+// while (ent) {
+//   arrBinary.push(ent % 2);
+//   ent = Math.floor(ent / 2);
+// }
+// let output = arrBinary.reverse().join("");
+
+// console.log(output);
+
+// Num 43 - 2
+
+// let ent = 160;
+// let output = ent.toString(2);
+
+// console.log(output);
+
+// Num 44
+
+// const ent = 18234;
+// const arrEnt = String(ent).split("");
+// let output = 0;
+
+// for (let i = 0; i < arrEnt.length; i++) {
+//   output = output + parseInt(arrEnt[i]);
+// }
+
+// console.log(output);
