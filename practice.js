@@ -197,3 +197,31 @@
 // }
 
 // console.log(output);
+
+// Num 45
+
+// let date = new Date();
+
+// let year = Math.floor(date.getTime() / (60 * 60 * 24 * 365 * 1000) + 1970);
+
+// console.log(year);
+
+// Num 46
+
+// const ent1 = 10;
+// const ent2 = 15;
+// let output = 0;
+
+// // ent1과 ent2 사이의 숫자를 문자열로
+// let str = "";
+// for (let i = 0; i <= ent2 - ent1; i++) {
+//   str = str + String(ent1 + i);
+// }
+
+// // 문자열을 배열로 바꾼 후 바열끼리 합
+// let arr = str.split("");
+// for (let j = 0; j < arr.length; j++) {
+//   output = output + parseInt(arr[j]);
+// }
+
+// console.log(output);
