@@ -225,3 +225,63 @@
 // }
 
 // console.log(output);
+
+// Num 47
+
+// const people = {
+//   이호준: "01050442903",
+//   이호상: "01051442904",
+//   이준호: "01050342904",
+//   이호준: "01050442903",
+//   이준: "01050412904",
+//   이호: "01050443904",
+//   이호준: "01050442903",
+// };
+
+// let output = new Set();
+
+// for (let i in people) {
+//   output.add(people[i]);
+// }
+
+// console.log(output.size);
+
+// Num 48
+
+// const ent = "AAABBBcccddd";
+// let output = [];
+
+// for (let i = 0; i < ent.length; i++) {
+//   if (ent[i] === ent[i].toUpperCase()) {
+//     output.push(ent[i].toLowerCase());
+//   } else {
+//     output.push(ent[i].toUpperCase());
+//   }
+// }
+
+// console.log(output.join(""));
+
+// Num 49 - 1
+
+const ent = "10 9 8 7 6 5 4 3 2 1";
+const arrEnt = ent.split(" ");
+const ascending = arrEnt.sort((a, b) => {
+  return b - a;
+});
+
+const output = ascending[0];
+
+console.log(output);
+
+// Num 49 - 2
+
+// const ent = "10 9 8 7 6 5 4 3 2 1";
+// const numbers = ent.split(" ").map((n) => {
+//   return parseInt(n, 10);
+// });
+
+// numbers.sort((a, b) => {
+//   return b - a;
+// });
+
+// console.log(numbers[0]);
