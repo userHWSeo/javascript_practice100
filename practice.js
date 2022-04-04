@@ -263,15 +263,15 @@
 
 // Num 49 - 1
 
-const ent = "10 9 8 7 6 5 4 3 2 1";
-const arrEnt = ent.split(" ");
-const ascending = arrEnt.sort((a, b) => {
-  return b - a;
-});
+// const ent = "10 9 8 7 6 5 4 3 2 1";
+// const arrEnt = ent.split(" ");
+// const ascending = arrEnt.sort((a, b) => {
+//   return b - a;
+// });
 
-const output = ascending[0];
+// const output = ascending[0];
 
-console.log(output);
+// console.log(output);
 
 // Num 49 - 2
 
@@ -285,3 +285,38 @@ console.log(output);
 // });
 
 // console.log(numbers[0]);
+
+// Num 50 - 1
+
+// function bubble(arr) {
+//   let result = arr.slice();
+
+//   for (let i = 0; i < result.length - 1; i++) {
+//     for (let j = 0; j < result.length - i; j++) {
+//       if (result[j] > result[j + 1]) {
+//         let value = result[j];
+//         result[j] = result[j + 1];
+//         result[j + 1] = value;
+//       }
+//     }
+//   }
+//   return result;
+// }
+
+// const items = "5 3 2 6 7 9".split(" ").map((n) => {
+//   return parseInt(n, 10);
+// });
+
+// console.log(bubble(items));
+
+// Num 50 - 2
+
+// const items = "5 3 2 6 7 9".split(" ").map((n) => {
+//   return parseInt(n, 10);
+// });
+
+// console.log(
+//   items.sort((a, b) => {
+//     return a - b;
+//   })
+// );
